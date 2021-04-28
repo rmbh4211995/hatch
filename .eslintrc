@@ -1,0 +1,28 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "jest": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/react",
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["prettier", "react"],
+  "rules": {
+    "prettier/prettier": "warn",
+    "react/display-name": 0
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
